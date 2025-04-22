@@ -1,7 +1,6 @@
-
 import { Archetype, MythJourney } from "@/store/useStore";
 
-const archetypeDescriptions: Record<Archetype, string> = {
+export const archetypeDescriptions: Record<Archetype, string> = {
   Hero: "The Hero embarks on a journey, overcomes challenges, and returns transformed. Your path is one of courage, perseverance, and triumph over adversity.",
   Explorer: "The Explorer seeks new horizons, embraces freedom, and discovers hidden truths. Your path is one of curiosity, independence, and authentic discovery.",
   Sage: "The Sage pursues knowledge, understanding, and wisdom. Your path is one of insight, clarity, and the enlightenment that comes through deep reflection.",
